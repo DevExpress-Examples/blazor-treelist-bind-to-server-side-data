@@ -1,0 +1,38 @@
+﻿@page "/treelist"
+
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+@inject CitiesService CitiesService
+
+<style>
+    .my-treelist {
+        height: 600px;
+    }
+</style>
+
+<DxTreeList Data="@Data"
+            CssClass="my-treelist"
+            VirtualScrollingEnabled="true"
+            TextWrapEnabled="false"
+            ColumnResizeMode="TreeListColumnResizeMode.NextColumn"
+            ShowFilterRow="true"
+            KeyFieldName="ID" 
+            ParentKeyFieldName="ParentID" 
+            HasChildrenFieldName="HasChildren">
+        <Columns>
+            <DxTreeListDataColumn Caption="Location" FieldName="Name" />
+            <DxTreeListDataColumn FieldName="CityType" />
+            <DxTreeListDataColumn FieldName="Year" DisplayFormat="d"/>
+            <DxTreeListDataColumn FieldName="RecordType" />
+            <DxTreeListDataColumn FieldName="Population" />
+        </Columns>
+    </DxTreeList> 
+
+@code {
+    object Data { get; set; }
+
+    protected override async Task OnInitializedAsync() {
+        var cities = await CitiesService.GetCitiesAsync();
+        Data = new GridDevExtremeDataSource<Location>(cities.AsQueryable());
+    }
+}
