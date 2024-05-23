@@ -15,9 +15,9 @@ You can use the [GridDevExtremeDataSource\<T>](https://docs.devexpress.com/Blazo
 
 To use this data source in your next Blazor project, follow the steps below:
 
-1. Create a [GridDevExtremeDataSource\<T>](https://docs.devexpress.com/Blazor/DevExpress.Blazor.GridDevExtremeDataSource-1) class instance and pass your [IQueryable\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.linq.iqueryable-1) data collection as the constructor parameter. Assign the result to the TreeList's [Data](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.Data?v=24.1) property.
-2. Specify [KeyFieldName](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.KeyFieldName?v=24.1) and [ParentKeyFieldName](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.ParentKeyFieldName?v=24.1) properties. The component uses them to build the tree.
-3. Specify the [HasChildrenFieldName](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.HasChildrenFieldName?v=24.1) property. The component uses this property to determine which nodes require expand buttons.
+1. Create a [GridDevExtremeDataSource\<T>](https://docs.devexpress.com/Blazor/DevExpress.Blazor.GridDevExtremeDataSource-1) class instance and pass your [IQueryable\<T>](https://docs.microsoft.com/en-us/dotnet/api/system.linq.iqueryable-1) data collection as the constructor parameter. Assign the result to the TreeList's [Data](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.Data) property.
+2. Specify [KeyFieldName](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.KeyFieldName) and [ParentKeyFieldName](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.ParentKeyFieldName) properties. The component uses them to build the tree.
+3. Specify the [HasChildrenFieldName](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeList.HasChildrenFieldName) property. The component uses this property to determine which nodes require expand buttons.
 
 ## Files to Review
 
