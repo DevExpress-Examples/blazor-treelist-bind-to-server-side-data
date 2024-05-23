@@ -24,7 +24,7 @@ To use this data source in your next Blazor project, follow the steps below:
 - [TreeList.razor](./CS/TreeListOnDemand/TreeListOnDemand/Components/Pages/TreeList.razor)
 - [Location.cs](./CS/TreeListOnDemand/TreeListOnDemand/Data/Location.cs)
 - [CitiesContext.cs](./CS/TreeListOnDemand/TreeListOnDemand/Data/CitiesContext.cs)
-- [CitiesService.cs](.CS/TreeListOnDemand/TreeListOnDemand/Services/CitiesService.cs)
+- [CitiesService.cs](./CS/TreeListOnDemand/TreeListOnDemand/Services/CitiesService.cs)
 - [Program.cs](./CS/TreeListOnDemand/TreeListOnDemand/Program.cs)
 
 ## Documentation
