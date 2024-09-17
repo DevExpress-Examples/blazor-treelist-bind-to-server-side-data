@@ -33,6 +33,6 @@
 
     protected override async Task OnInitializedAsync() {
         var cities = await CitiesService.GetCitiesAsync();
-        Data = new GridDevExtremeDataSource<Location>(cities.AsQueryable());
+        Data = new GridDevExtremeDataSource<Location>(cities);
     }
 }

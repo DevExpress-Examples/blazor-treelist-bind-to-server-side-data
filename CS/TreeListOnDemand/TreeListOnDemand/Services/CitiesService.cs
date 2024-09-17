@@ -23,9 +23,8 @@ namespace TreeListOnDemand.Services {
             _context.SaveChanges();
         }
 
-        public async Task<Location[]?> GetCitiesAsync() {
-            await _context.Locations.LoadAsync();
-            return _context.Locations.Local.ToArray();
+        public async Task<IQueryable<Location>> GetCitiesAsync() {
+            return _context.Locations;
         }
     }
 }
