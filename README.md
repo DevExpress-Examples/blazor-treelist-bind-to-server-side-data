@@ -28,7 +28,7 @@ To use this data source in your next Blazor project, follow the steps below:
 
 ## Documentation
 
-- [Blazor TreeList (CTP)](https://docs.devexpress.com/Blazor/404942/components/treelist)
+- [Blazor TreeList](https://docs.devexpress.com/Blazor/404942/components/treelist)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
