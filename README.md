@@ -30,7 +30,7 @@ To use this data source in your next Blazor project, follow the steps below:
 
 - [Blazor TreeList](https://docs.devexpress.com/Blazor/404942/components/treelist)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-treelist-bind-to-server-side-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-treelist-bind-to-server-side-data&~~~was_helpful=no)
 
