@@ -1,4 +1,4 @@
-using TreeListOnDemand.Components;
+﻿using TreeListOnDemand.Components;
 using TreeListOnDemand.Services;
 using TreeListOnDemand.Data;
 using Microsoft.EntityFrameworkCore;
@@ -37,6 +37,8 @@ if (app.Environment.IsDevelopment()) {
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+app.UseRouting();
+
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
